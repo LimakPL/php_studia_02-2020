@@ -1,0 +1,35 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+.site-container {
+    width: 1115px;
+    margin: 0 auto;
+    text-align: center;
+}
+  @media (max-width: 1250px) {
+    .site-container {
+      width: 90%; 
+      } 
+}
+
+
+img.power:hover{
+    content: url(../img/power2.png);
+}
+
+p{
+    margin: 1px;
+    padding: 1px;
+}
+p.autor{
+    font-weight: bold;
+    color: crimson;
+    font-variant: small-caps;
+    font-size: 115%;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+}
